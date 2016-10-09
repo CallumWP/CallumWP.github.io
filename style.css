@@ -7,6 +7,14 @@ html{
 	font-size:100%;
 }
 
+body{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+}
+
 p,a,h1,h2,h3,h4,h5,span{
 	font-family: "Century Gothic";
 	font-weight: 100;
@@ -34,6 +42,10 @@ h1{
 h2{
 	font-size:2vw;
 	margin-top:2%;
+}
+
+h3{
+	font-size:1vw;
 }
 
 #container{
@@ -158,33 +170,23 @@ p{
 	
 }
 
-#about-table{
-	width:100%;
-}
-
-#about-table th{
-	width:25%;
-}
-
-#about-table h3{
-	font-size:1vw;
-}
-
 .table-box{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
 	margin-top:6%;
 }
 
-#sustainable-table{
-	width:100%;
+.quarter{
+	display:inline-block;
+	width:24%;
 }
 
-#sustainable-table th{
+.third{
+	display:inline-block;
 	width:33%;
-	padding-bottom:1%;
-}
-
-#sustainable-table h3{
-	font-size:1vw;
+	text-align:center;
+	margin-bottom:2%;
 }
 
 #page4{
